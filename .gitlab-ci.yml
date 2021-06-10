@@ -1,3 +1,6 @@
+# This CI script is run on a private server from the CoML team, it is not
+# intended to be used by general users.
+
 before_script:
   # load the requested modules on oberon
   - module load anaconda/3 festival/2.4 mbrola
